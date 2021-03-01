@@ -1,0 +1,40 @@
+---
+layout: default
+permalink: /
+thumb_force_logo: true
+---
+
+{%- include amsf/core -%}
+
+<!-- Article wrapper, limit width -->
+<article>
+
+  <!-- Post title -->
+  <header>
+
+    <h1 class="image-title">
+      ParrotCast
+      <img src="{{ amsf_user_assets }}/svg/custom-header.svg">
+    </h1>
+
+    <h2 class="sub-title">
+      <p>‍🎤 Мы – подкаст про людей в Data Science</p>
+      <p>Ведущие: <a href="https://twitter.com/tiulpin" target="_blank">Виктор Тюльпин</a> и <a href="https://twitter.com/tez_romach" target="_blank">Роман Тезиков</a></p>
+    </h2>
+
+    <small>
+      <a href="https://podcasts.apple.com/ru/podcast/parrotcast/id1547542698" target="_blank">Apple Podcasts</a>
+      · <a href="https://podcasts.google.com/u/1/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80Njg2NTg4MC9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcasts</a>
+      · <a href="https://music.yandex.ru/album/13399864" target="_blank">Яндекс Музыка</a>
+      · <a href="https://www.youtube.com/channel/UCthWsKzYGKMM_TNt8i7T1Rg/featured" target="_blank">YouTube</a>
+      · <a href="https://open.spotify.com/show/3d4JeGPmOcBrOLQxfGMVL3" target="_blank">Spotify</a>
+      · <a href="https://anchor.fm/s/46865880/podcast/rss" target="_blank">RSS</a></small>
+  </header>
+
+  <div class="page-content">
+    <h2>2021</h2>
+    {% for post in site.tags.first %}
+      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
+    {% endfor %}
+  </div>
+</article>
