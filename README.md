@@ -9,6 +9,6 @@ _Yet another Data Science related podcast, but about people, not technologies. I
 
 Этот подкаст ведут два еще не выгоревших и молодых инженера:
 - [Виктор Тюльпин](https://twitter.com/tiulpin) (Software Developer, JetBrains)
-- [Роман Тезиков](https://twitter.com/tiulpin) (Senior Data Scientist, Lamoda)
+- [Роман Тезиков](https://twitter.com/tez_romach) (Senior Data Scientist, Lamoda)
 
 На нашем сайте можно послушать выпуски или найти ссылки на любимый сервис подкастов, заходите в гости – **[parrotcast.link](https://parrotcast.link/)**!
